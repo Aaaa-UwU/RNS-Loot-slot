@@ -1,0 +1,14 @@
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.csproj.AssemblyReference.cache
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.GeneratedMSBuildEditorConfig.editorconfig
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.AssemblyInfoInputs.cache
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.AssemblyInfo.cs
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.csproj.CoreCompileInputs.cache
+C:\Users\Tony\Desktop\Reloaded-II\Mods\RnSLootSlots\ModConfig.json
+C:\Users\Tony\Desktop\Reloaded-II\Mods\RnSLootSlots\RnSLootSlots.deps.json
+C:\Users\Tony\Desktop\Reloaded-II\Mods\RnSLootSlots\RnSLootSlots.dll
+C:\Users\Tony\Desktop\Reloaded-II\Mods\RnSLootSlots\RnSLootSlots.pdb
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootS.168EFE3D.Up2Date
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.dll
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\refint\RnSLootSlots.dll
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\RnSLootSlots.pdb
+D:\RnSLootSlots\RnSLootSlots\obj\Debug\ref\RnSLootSlots.dll

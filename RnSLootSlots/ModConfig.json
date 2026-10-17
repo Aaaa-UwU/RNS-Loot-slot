@@ -1,0 +1,61 @@
+{
+  "ModId": "RnSLootSlots",
+  "ModName": "RnS Loot Slots",
+  "ModAuthor": "Aaaa_UwU",
+  "ModVersion": "1.3.0",
+  "ModDescription": "**Shares the three potion slots.** When all six loot squares are full, a seventh loot item picked from a loot table goes into a free potion square instead of being silently discarded — up to three extra items (loot items 7-9). Loot still fills the six loot squares first.\n\n**Potions survive area transitions.** The game's potion wipe at a stage transition is cancelled, so potions — and any loot sharing their slots — carry into the next area.\n\nStore purchases are left untouched. The Toybox still stops at six loot / three potions. Online play is not limited: every player in a lobby must install the same mod version.",
+  "ModDll": "RnSLootSlots.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "RnSLootSlots.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "NuGet": {
+      "AllowUpdateFromAnyRepository": false,
+      "DefaultRepositoryUrls": [
+        "https://packages.sewer56.moe/v3/index.json"
+      ]
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks", "RNSReloaded" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [ "rabbitsteel.exe" ],
+  "ProjectUrl": ""
+}

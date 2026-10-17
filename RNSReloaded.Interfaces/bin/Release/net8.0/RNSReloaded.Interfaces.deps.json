@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RNSReloaded.Interfaces/1.0.0": {
+        "dependencies": {
+          "Reloaded.Hooks.Definitions": "1.15.0"
+        },
+        "runtime": {
+          "RNSReloaded.Interfaces.dll": {}
+        }
+      },
+      "Reloaded.Hooks.Definitions/1.15.0": {
+        "runtime": {
+          "lib/net6.0/Reloaded.Hooks.Definitions.dll": {
+            "assemblyVersion": "1.15.0.0",
+            "fileVersion": "1.15.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RNSReloaded.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Hooks.Definitions/1.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLY20vYB0fS2xwu6RDQVwlJxt2//KXLigYrCsCuzt5QFQqkvft4abq9FWPeCJYcvEeg/GQpJ3LC+108/4I2l+g==",
+      "path": "reloaded.hooks.definitions/1.15.0",
+      "hashPath": "reloaded.hooks.definitions.1.15.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+D:\RnSLootSlots\RNSReloaded.Interfaces\bin\Release\net8.0\RNSReloaded.Interfaces.deps.json
+D:\RnSLootSlots\RNSReloaded.Interfaces\bin\Release\net8.0\RNSReloaded.Interfaces.dll
+D:\RnSLootSlots\RNSReloaded.Interfaces\bin\Release\net8.0\RNSReloaded.Interfaces.pdb
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.csproj.AssemblyReference.cache
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.AssemblyInfoInputs.cache
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.AssemblyInfo.cs
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.csproj.CoreCompileInputs.cache
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.dll
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\refint\RNSReloaded.Interfaces.dll
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\RNSReloaded.Interfaces.pdb
+D:\RnSLootSlots\RNSReloaded.Interfaces\obj\Release\net8.0\ref\RNSReloaded.Interfaces.dll

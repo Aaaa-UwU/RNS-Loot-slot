@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Reloaded.Hooks.Definitions/1.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Reloaded.Hooks.Definitions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Reloaded.Hooks.Definitions.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reloaded.Hooks.Definitions/1.15.0": {
+      "sha512": "bLY20vYB0fS2xwu6RDQVwlJxt2//KXLigYrCsCuzt5QFQqkvft4abq9FWPeCJYcvEeg/GQpJ3LC+108/4I2l+g==",
+      "type": "package",
+      "path": "reloaded.hooks.definitions/1.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net5.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net5.0/Reloaded.Hooks.Definitions.xml",
+        "lib/net6.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net6.0/Reloaded.Hooks.Definitions.xml",
+        "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.dll",
+        "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.xml",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.dll",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.xml",
+        "reloaded.hooks.definitions.1.15.0.nupkg.sha512",
+        "reloaded.hooks.definitions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Reloaded.Hooks.Definitions >= 1.15.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tony\\.nuget\\packages\\": {},
+    "D:\\VSCODE\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\RnSLootSlots\\RNSReloaded.Interfaces\\RNSReloaded.Interfaces.csproj",
+      "projectName": "RNSReloaded.Interfaces",
+      "projectPath": "D:\\RnSLootSlots\\RNSReloaded.Interfaces\\RNSReloaded.Interfaces.csproj",
+      "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
+      "outputPath": "D:\\RnSLootSlots\\RNSReloaded.Interfaces\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VSCODE\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Reloaded.Hooks.Definitions": {
+            "target": "Package",
+            "version": "[1.15.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

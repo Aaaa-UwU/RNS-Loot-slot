@@ -1,0 +1,7 @@
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\ModConfig.json
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\RnSLootSlots.dll
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\RnSLootSlots.deps.json
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\RnSLootSlots.pdb
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\Reloaded.Hooks.Definitions.dll
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\RNSReloaded.Interfaces.dll
+D:\RnSLootSlots\Publish\Builds\CurrentVersion\RNSReloaded.Interfaces.pdb

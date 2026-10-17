@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <!--
+            Reloaded II sets RELOADEDIIMODS to its own mods folder once installed, so the build
+            deploys straight into the loader's directory. The fallback keeps `dotnet build`
+            working before Reloaded II is installed.
+        -->
+        <OutputPath Condition="'$(RELOADEDIIMODS)' != ''">$(RELOADEDIIMODS)\RnSLootSlots</OutputPath>
+        <OutputPath Condition="'$(RELOADEDIIMODS)' == ''">$(MSBuildProjectDirectory)\..\out\RnSLootSlots</OutputPath>
+    </PropertyGroup>
+
+    <!-- Upstream sets ReloadedILLink=false for gameplay mods; trimming is therefore not imported. -->
+    <PropertyGroup>
+        <ReloadedILLink>false</ReloadedILLink>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="ModConfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="ModConfig.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!--
+            Only what is actually used. Reloaded.Hooks.Definitions arrives transitively via
+            RNSReloaded.Interfaces, which needs it for IHook/IReloadedHooks.
+        -->
+        <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Vendored copy of upstream RNSReloaded.Interfaces; see README for provenance. -->
+        <ProjectReference Include="..\RNSReloaded.Interfaces\RNSReloaded.Interfaces.csproj" />
+    </ItemGroup>
+</Project>

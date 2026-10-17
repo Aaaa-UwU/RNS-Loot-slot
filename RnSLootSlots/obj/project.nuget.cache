@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "PWlx1DnDfJo=",
+  "success": true,
+  "projectFilePath": "D:\\RnSLootSlots\\RnSLootSlots\\RnSLootSlots.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tony\\.nuget\\packages\\reloaded.hooks.definitions\\1.15.0\\reloaded.hooks.definitions.1.15.0.nupkg.sha512",
+    "C:\\Users\\Tony\\.nuget\\packages\\reloaded.mod.interfaces\\2.4.0\\reloaded.mod.interfaces.2.4.0.nupkg.sha512",
+    "C:\\Users\\Tony\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\Tony\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\Tony\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
